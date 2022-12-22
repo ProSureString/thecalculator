@@ -1,10 +1,4 @@
-let out = 0
-let opertor = ""
-let num2 = 0
-let num1 = 0
-let starting = true
-while (starting) {
-    starting = false
+function Calc () {
     num1 = game.askForNumber("num1")
     num2 = game.askForNumber("num2")
     opertor = game.askForString("The operator a+ s- m* d/")
@@ -18,5 +12,13 @@ while (starting) {
         out = num1 / num2
     }
     game.splash(out)
-    starting = true
+    callCalc()
 }
+function callCalc () {
+    Calc()
+}
+let out = 0
+let opertor = ""
+let num2 = 0
+let num1 = 0
+Calc()
