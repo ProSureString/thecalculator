@@ -1,4 +1,5 @@
 let out = 0
+game.splash("Welcome to calculator!!!", "Please reset after each calculation...")
 let num1 = game.askForNumber("num1")
 let num2 = game.askForNumber("num2")
 let opertor = game.askForString("The operator a+ s- m* d/")
