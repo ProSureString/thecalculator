@@ -11,4 +11,5 @@ if (opertor == "A" || opertor == "a") {
 } else if (opertor == "D" || opertor == "d") {
     out = num1 / num2
 }
+
 game.splash(out)
